@@ -65,16 +65,24 @@
                             <div class="subheading mb-3">Emotional Wellness Coach Application</div>
                             <ul class="mb-0">
                                 <li>
-                                    <p>Utilized LangChain and DialogFlow for sentiment analysis of user interactions, identifying dissatisfaction to trigger real therapist intervention.</p>
+                                    <p>Deployed Large Language Models (OpenAI's GPT-3.5) on top of the ABC Model to identify patterns in human behavior, orchestrating the
+entire workflow through LangChain, leading to a 22% improvement in personalization for curaJOY INC.</p>
                                 </li>
                                 <li>
-                                    <p>Developed behavior analysis models using GPT-3.5, implemented chain-of-thoughts reasoning, and deployed models via AWS SageMaker. Additionally, I am working on building Retrieval-Augmented Generation (RAG) systems to enhance the model's performance and accuracy.</p>
+                                    <p>Fine-tuned OpenAI's GPT-3.5 on a custom dataset of clinician-generated and crowdsourced data using PEFT (LoRA), enhancing context- aware responses by 17% by leveraging Chain-of-Thoughts reasoning.</p>
                                 </li>
                                 <li>
-                                    <p>Automated the extraction of antecedent and consequent labels from model predictions, streamlining data processing. Extracted and managed large datasets using SQL and stored data in Airtable for organized and efficient access.</p>
+                                    <p>Improved response quality and overall user experience by 15% through a Retrieval-Augmented Generation (RAG) system, which involved
+retrieval from a knowledge base via VectorDB and generation by tuning LLM hyperparameters (temperature, top-k, top-p, etc.).</p>
                                 </li>
                                 <li>
-                                    <p>Participated in daily stand-ups, and two-week sprint planning using Jira, ensuring continuous delivery and improvement. Created detailed reports and visualizations to communicate findings and support intervention strategies. Used Apache Airflow for building and maintaining pipelines.</p>
+                                    <p>Dedicated 50% of the time to data tasks, including cleaning, validation with clinicians, and crafting prompts to improve reasoning.</p>
+                                </li>
+                                <li>
+                                    <p>Assessed model performance using RAGAS and cross-validation techniques.</p>
+                                </li>
+                                <li>
+                                    <p>Packaged models efficiently as microservices and deployed them on AWS (PaaS).</p>
                                 </li>
                             </ul>
                         </div>
@@ -149,9 +157,23 @@
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
-
                     <div class="mb-5">
                         <div class="flex-grow-1">
+                            <h3 class="mb-0">Contextual AI-Powered Resume Shortlisting System:</h3>
+                            <p>• Developed an AI-powered resume shortlisting system leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) with LangChain to enhance contextual understanding of candidate profiles.</p>
+                            <p>• Integrated Chroma DB for semantic search and multi-prompt chains to improve context-driven candidate-job matching, ensuring relevance and accuracy. Optimized recruitment workflows by automating resume analysis, and streamlining decision-making processes.</p>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Deploying LLM Applications with LangServe:</h3>
+                            <p>• Utilized LangServe to streamline the deployment of large language models (LLMs), overcoming complexities in model selection and resource management.</p>
+                            <p>• Implemented monitoring strategies to ensure robust performance and continuous optimization of LLM applications in production environments.Achieved efficient integration of LLMs with existing systems, enhancing application capabilities.</p>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <div class="flex-grow-1">
+                            
                             <h3 class="mb-0">Stock Price Prediction with Machine Learning</h3>
                             <p>• Developed and deployed a machine learning model to forecast stock prices using historical data from the Yahoo Finance API. Leveraged the XGBoost algorithm and Amazon SageMaker for model training and real-time prediction endpoint deployment.</p>
                             <p>• Addressed data preprocessing challenges and optimized model performance through hyperparameter tuning. Gained valuable insights into financial markets and machine learning techniques.</p>
